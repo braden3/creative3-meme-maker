@@ -1,10 +1,16 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div>
+    <div id="app">
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/Favorites">Favorites</router-link> |
+        <router-link to="/about">About</router-link>
+      </div>
+      <router-view/>
     </div>
-    <router-view/>
+    <div class="footer">
+      <a href="https://github.com/BYU-CS-260-Winter-2020/lab-3b-grocery-store-PaetonM">Creative Project 3</a>
+    </div>
   </div>
 </template>
 
@@ -15,6 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-bottom: 75px;
 }
 
 #nav {
@@ -28,5 +35,17 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  border: solid 3px;
+  background-color: #42b983;
+  bottom: 0px;
+  text-align: center;
+  height: 75px;
+  line-height: 75px;
+  color: black;
 }
 </style>
