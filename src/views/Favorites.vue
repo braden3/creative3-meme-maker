@@ -50,7 +50,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 .welcome {
   background-color: #42b983;
   height: 50px;
@@ -87,15 +87,16 @@ hr {
 
 .meme img {
   border: 2px solid #333;
-  width: 100%;
+  /*width: 100%;*/
   object-fit: cover;
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .meme .image {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .info {
@@ -128,6 +129,7 @@ button {
   background: #000;
   color: white;
   border: none;
+  padding-bottom: 10px;
 }
 
 .auto {
