@@ -9,7 +9,7 @@
       <router-view/>
     </div>
     <div class="footer">
-      <a href="https://https://github.com/braden3/creative3-meme-maker">Github Creative Project 3: Paeton Murdock Braden Borough</a>
+      <a href="https://github.com/braden3/creative3-meme-maker">Github Creative Project 3: Paeton Murdock Braden Borough</a>
     </div>
   </div>
 </template>
